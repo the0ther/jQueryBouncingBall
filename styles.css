@@ -1,0 +1,38 @@
+#container {
+    width:400px;
+    height:400px;
+    margin:auto;
+    position: relative;
+    background-color: #F5F5F5;
+    margin-top:40px;
+    border:1px solid #CCC;
+}
+ 
+#ball {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    z-index :2;
+    display: none;
+    border: 2px solid #FFC52F;
+ 
+    /*------------- GRADIENT GENERATED FROM http://www.colorzilla.com/gradient-editor/ ----------------------- */
+    background: rgb(79,38,130); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(79,38,130,1) 1%, rgba(112,112,112,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,rgba(79,38,130,1)), color-stop(100%,rgba(112,112,112,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg, rgba(79,38,130,1) 1%,rgba(112,112,112,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg, rgba(79,38,130,1) 1%,rgba(112,112,112,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg, rgba(79,38,130,1) 1%,rgba(112,112,112,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg, rgba(79,38,130,1) 1%,rgba(112,112,112,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#707070',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+ 
+#shadow {
+    border-radius: 50%;
+    background-color: #CCC;
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    z-index:1;
+    display:none;
+}
